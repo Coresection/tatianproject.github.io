@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;The Tatian Restaurant&rdquo; Documentation by &ldquo;Coresection Technologies&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;The Tatian Restaurant&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 1st August 2018<br>
+					By: Waqas Mirza<br>
+					Email: <a href="mailto:youremail@yourdomain.com">waqas.mirza@coresection.ch</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/coresection">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">PHP Files and the HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#images">Content and layout images</a></li>
+			<li><a href="#forms">The booking-form and contact-form</a></li>
+			<li><a href="#htaccess">.Htacess file - <strong>THIS IS VERY IMPORTANT</strong></a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) PHP Files and the HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>In this theme we implemented the responsive design with 3 different layout schemes:<br /><br />
+		1) Desktop Design: has a width of 1200px (which contains activated at minimum screen width of 1250px).<br />
+		2. Tablet Design: has a width of 650px (which contains activated at maximum screen width of 1250px)<br />
+		3. Mobile Design: has a width of 300px (which contains activated at maximum screen width of 700px)<br /><br />
+		 We put our focus in the coding part on the quality and scalability of these three layouts.</p>
+		 <p>In the main CSS file which has the name "style.css" and can be found in the root of the template css/style.css, contains all three design layouts. How exactly these three parts (desktop, tablet and mobile version) can be found in the style.css file, we explain it <a href="#cssFiles">here</a>.</p>
+		
+		<p>We created a beautiful html structure for better and fast understanding for the first review.<br />
+			We even commented the beginning and ending of every main div container.</p>
+		<img style="max-width:790px;" src="assets/images/htmlstructure.png" alt="HTML Structure" /><br /><br />
+		
+		<h2>Here are listed all the PHP files</h2>
+		<ol>
+			<li>index.php - The main file and homesite of the website</li>
+			<li>header.php - Contains the navigation of the page - Just change the navigation here once and its changed on all pages</li>
+			<li>booking.php - Contains the booking send form of the index page - Here you can change the receiver email address of the form</li>
+			<li>menu.php - The menu page on which the food menu is listed</li>
+			<li>about.php - The about page of the Tatian restaurant website</li>
+			<li>team.php - The team page of the Tatian restaurant website</li>
+			<li>news.php - The news page of the Tatian restaurant website</li>
+			<li>contact.php - The contact page on which the map is embedded and contactform and also contact informations of the Tatian restaurant</li>
+			<li>send.php - Contains the contact send form of the contact page - Here you can change the receiver email address of the form</li>
+			<li>footend.php - Contains the bottom line and text on all pages "Tatian Restaurant © 2018 all rights reserved" <- with the current year</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>Basically I'm using only one file for the whole website design but two others which are font-awesome icons libraries. So there are total three CSS files in this theme. The main "style.css" is the main file for all style on the theme. This file contains all general styling, such as anchor tag colors, font-sizes, background-color, height, width of div container etc. Keep in mind, that some of these values might be overridden somewhere else in the file, where the responsive design takes action for example for the Tablet design or mobile design.</p> 
+
+		<p>In the main css "style.css "file, the Responsive Design starts at the following point with the Tablet Design:</p>  
+
+<pre>
+	/********** Responsive Design START **********/
+	/********** Tablet Design START **********/
+
+	@media screen and (max-width: 1250px) {
+		...here is the overridden code for the tablet design...
+	}
+</pre>
+<p>And at this point, the Mobile Design starts:</p>
+<pre>
+	/********** Mobile Design START **********/
+	@media screen and (max-width: 700px) {
+		...here is the overridden code for the mobile design...
+	}
+</pre>
+<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+<pre>
+	#.readmore.one {
+		background-color: red; (if you dont like that color, delete this line and create like the following:)
+		background-color: blue; (the new color you gave to it)
+	}
+</pre>
+
+		<h2>Here are listed all the CSS files</h2>
+		<ol>
+			<li>style.css - The main CSS file which also contains the desktop, tablet and mobile design</li>
+			<li>font-awesome.css - one of the fontawesome icons library</li>
+			<li>font-awesome.min.css - another fontawesome icons library</li>
+		</ol>
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme contains 6 Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>My custom scripts</li>
+			<li>Google maps plugin</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>Most of the animation in this site is carried out from the customs scripts.
+			</li>
+			<li>In addition to the custom scripts, I implement a few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to change the recipient email adress for the booking and contact form, which can be understood <a href="#forms">here</a>.
+			</li>
+		</ol>
+
+		<h2>Here are listed all the Javascript files</h2>
+		<ol>
+			<li>jquery-1.11.0.min.js - The JQuery library which allows to create animations etc.</li>
+			<li>menuactive.js - This file is here to activate the color in the navigation of the current site (if we are on the about.html page, the navigation will be active so we know, where we are)</li>
+			<li>togglelink.js - This file animates a link on a current site to any anchor target smoothly</li>
+			<li>sendbooking.js - This file takes all the data of the booking form on the index.html file (home site) and gives it further to the booking.php file in the root folder of this theme</li>
+			<li>sendform.js - This file takes all the data of the contact form on the contact.html file (contact site) and gives it further to the send.php file in the root folder of this theme</li>
+			<li>maps.js - The custom Google maps, which allows us to change colors of the streets and other etc.<br /> 
+			<strong>Below is the area in this file, where to set the location of your restaurant and change further informations like adress and contact details etc.</strong></li>
+		</ol>
+
+<pre>
+function init() {
+    var mapOptions = {
+                    zoom: 12,
+                    panControl: false,
+                    scaleControl: false,
+                    scrollwheel: false,
+                    mapTypeControl: false,
+        center: new google.maps.LatLng(<strong>-37.862764,144.9009933</strong>) <strong><- Available from Google Maps after the search of your location</strong>,
+        styles: ...
+    };
+</pre>
+<pre>
+marker.addListener('click', function() {
+	var company = 'Tatian Restaurant';
+	infowindow.setContent('<strong>' + company + '</strong> Behind Alis Street  Melbourne, Australia +92 333 765 53 35 restaurant@thetatian.com');
+	infowindow.open(map, marker);
+});
+</pre>
+		
+		<hr>
+		
+		<h3 id="images"><strong>D) Content and layout images</strong> - <a href="#toc">top</a></h3>
+		
+		<p>All images which are meant for content or for the layout can be found in the same folder.<br />
+			If you are in the root of this theme you will find all layout images here: layout/...</p>
+		
+		<p>If you'd like to change layout or content images in the theme, make the necessary adjustments like give your new image the same name and same file type (like .jpg or .png), and then save the file in the layout folder.<br />
+			<strong>Just make sure, they have the same necessary width and height like the current images which were including in the theme at the time before you did any changing.</strong></p> 
+		
+		<p>Please remember, that you don't have the license for the images which you've downloaded with the Tatian theme, meaning that which are already in this theme.</p>
+		
+		<hr>
+		
+		<h3 id="forms"><strong>E) The booking-form and contact-form</strong> - <a href="#toc">top</a></h3>
+		
+		<p>You will need to change the email recipient inside two PHP files to email adress or adresses which belongs to you. The changing in the PHP files are at the same place, because its actually the same Coding logic in both files. The only difference are the fields which will be sent by submitting the forms.</p>
+		<p><strong>The following PHP files need to be edited with your email adress as recipient for the both forms on the homepage (index.html) and contactpage (contact.html)</strong></p>
+		<ol>
+			<li>booking.php - The form which sends data of the form on the index.html page</li>
+			<li>send.php - The form which sends data of the form on the contact.html page</li>
+		</ol>
+		<p>In both forms change the email adress here (you'll find it in the top of the code file at 4th line):</p>
+		<pre>
+if($_POST)
+{
+    $to_email       = "info@coresection.ch"; <strong>Recipient email, Replace with own email here</strong>
+    
+    //check if its an ajax request, exit if not
+    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+		</pre>
+		<hr>
+
+		<h3 id="htaccess"><strong>F) .htaccess File</strong> - <a href="#toc">top</a></h3>
+		
+		<p>The reason why the files are in PHP, is because we use PHP in many file sections. Thats why we used PHP and rewrite the .php ending with the .htaccess file.</p>
+		<p><strong>What you need to do is, just upload the whole theme after your custom changing onto your webserver, and change the "htaccess" file to ".htaccess". If files have already a dot in the beginning, they get invisible in the Windows explorer or OSX finder.</strong></p>
+		<p>After doing this proceder of yours, all pages will show up with .html ending in the browser.<br>
+			For example: contact.php will be shown as contact.html.</p>
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.<br />And once again...Thank you very much. Enjoy my work!</p> 
+		
+		<p class="append-bottom alt large"><strong>Waqas Mirza</strong> / Coresection Technologies</p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

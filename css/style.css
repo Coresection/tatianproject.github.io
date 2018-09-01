@@ -1,0 +1,1797 @@
+html , body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', arial , sans-serif , Verdana;
+	height: 100%;
+	min-height: 100%;
+	background-color: #000;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+a,
+a:visited,
+a:link {
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+#opennav,
+#closenav {
+	display: none;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+	width: 100%;
+	float: left;
+	background-color: #A0522D;
+	position: relative;
+	z-index: 999;
+}
+
+#logo {
+	background: url("../layout/mainlogo.png") no-repeat center center;
+	height: 100px;
+	width: 150px;
+	float: left;
+	background-size: 130px auto;
+	padding-top: 2px;
+}
+
+#logo a {
+	height: 100%;
+	display: block;
+}
+
+#header ul {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header li {
+	float: left;
+
+}
+
+#header li a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 41px 56px;
+	color: #fff;
+	font-size: 16px;
+}
+
+#header li a:hover,
+#header li a.active {
+	background-color: #1C1C1C;
+	color: #fff;
+}
+
+.active.inactive {
+    background-color: inherit !important;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.willwrapper {
+	max-width: 988px;
+	margin: 0 auto;
+}
+
+.wellwrapper {
+	max-width: 1075px;
+	margin: 0 auto;	
+}
+
+#banner {
+	float: left;
+	width: 100%;
+	min-height: 500px;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+	background: url("../layout/therestaurant.jpg") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#foodicons {
+	background-color: #230600;
+	height: 500px;
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+}
+
+#foodicons h3 {
+	width: 100%;
+	float: left;
+	background-color: #efefef;
+	color: #333;
+	text-align: center;
+	font-weight: lighter;
+	padding: 18px 0px 20px;
+	font-size: 25px;
+	margin-top: 80px;
+}
+
+
+#lettuceicon {
+	background: url("../layout/lettuce.png") no-repeat center center;
+	background-size: 150px auto;
+	width: 150px;
+	height: 180px;
+	margin: 50px 0px 50px 45px;
+	float: left;
+}
+
+.downline {
+	background: url("../layout/downline.png") no-repeat center center;
+	background-size: 140px auto;
+	width: 80px;
+	height: 75px;
+	float: left;
+	margin-top: 200px;
+}
+
+.upline {
+	background: url("../layout/upline.png") no-repeat center center;
+	background-size: 140px auto;
+	width: 80px;
+	height: 75px;
+	float: left;
+	margin-top: 200px;
+}
+
+#glassicon {
+	background: url("../layout/glass.png") no-repeat center center;
+	background-size: 150px auto;
+	width: 100px;
+	height: 150px;
+	margin: 250px 0px 0px;
+	float: left;
+}
+
+#fruiticon {
+	background: url("../layout/fruit.png") no-repeat center center;
+	background-size: 150px auto;
+	width: 150px;
+	height: 150px;
+	margin: 50px 0px 0px 18px;
+	float: left;
+}
+
+#warmplateicon {
+	background: url("../layout/warmplate.png") no-repeat center center;
+	background-size: 150px auto;
+	width: 150px;
+	height: 150px;
+	margin: 250px 10px 0px;
+	float: left;
+}
+
+#desserticon {
+	background: url("../layout/dessert.png") no-repeat center center;
+	background-size: 150px auto;
+	width: 120px;
+	height: 150px;
+	margin: 50px 0px;
+	float: left;
+}
+
+#homeboxes {
+	float: left;
+	width: 100%;
+	min-height: 450px;
+	background-color: #fff;
+}
+
+#frontbox1,
+#frontbox2,
+#frontbox3 {
+	margin: 100px 0px;
+}
+
+#frontbox1 h3,
+#frontbox2 h3,
+#frontbox3 h3 {
+	color: #333;
+	font-weight: lighter;
+	font-size: 22px;
+	background-color: #ddd;
+	padding: 20px;
+	margin: 0;
+	line-height: 30px;
+}
+
+#frontbox1 img,
+#frontbox2 img {
+	max-width: 310px;
+	padding: 0px 25px;
+}
+
+#frontbox1 p,
+#frontbox2 p { 
+	padding: 5px 24px 20px;
+	line-height: 24px;
+	min-height: 115px;
+	font-size: 16px;
+}
+
+.readmore {
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	margin: 25px;
+	font-size: 16px;
+}
+
+.readmore.one {
+	background-color: #B88956;
+}
+
+.readmore.two {
+	background-color: #543A19;
+}
+
+#frontbox1 {
+	border-top: 10px solid #B88956;
+	background-color: #cecece;
+	height: 465px;
+	width: 350px;
+	float: left;
+}
+
+
+#frontbox2 {
+	border-top: 10px solid #543A19;
+	background-color: #cecece;
+	height: 465px;
+	width: 350px;
+	margin: 100px 75px;
+	float: left;	
+}
+
+#frontbox3 {
+	border-top: 10px solid #230600;
+	background-color: #cecece;
+	min-height: 465px;
+	width: 350px;
+	float: left;	
+}
+
+#contact_body input {
+	padding: 15px 10px;
+	margin: 12.5px 25px;
+	float: left;
+	width: 275px;
+	border: 1px solid #cecece;
+}
+
+#contact_body .submit {
+	width: 115px;
+	background-color: #230600;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+    padding: 21.5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#frontbox3 #contact_results .error {
+	padding: 15px 24px 5px;
+	color: red;
+}
+
+#frontbox3 #contact_results .success {
+	padding: 15px 24px 5px;
+	color: green;
+}
+
+#motto {
+	float: left;
+	width: 100%;
+	height: 550px;
+	background: url("../layout/motto.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.trans-1 {
+	background-color: #000;
+	height: 550px;
+	width: 100%;
+	float: left;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+}
+
+.trans-2 {
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+	float: left;
+	opacity: 0.55;
+	z-index: 1;
+	position: absolute;
+}
+
+#banner-content {
+	position: relative;
+	z-index: 999;
+	height: 100%;
+	display: table;
+	width: 100%;
+	top: -70px;
+}
+
+#bannercontentalign {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.first {
+	font-weight: normal;
+    font-family: 'roboto';
+    line-height: 80px;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 0px;
+    text-shadow: 2px 2px #000;
+}
+
+.second {
+	font-weight: normal;
+    font-family: 'open sans';
+    line-height: 65px;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px 0px 0px;
+    padding: 0px;
+    text-shadow: 1px 1px #000;
+}
+
+#morelink {
+    float: left;
+    width: 98%;
+    margin-top: 60px;
+    position: relative;
+	z-index: 999;
+}
+
+#more {
+	border: 1px solid #fff;
+	border-radius: 3px;
+	height: 40px;
+	margin: 0 auto;
+	width: 111px;
+}
+
+#more span {
+	font-family: 'roboto';
+	color: #fff;
+	display: block;
+	float: left;
+	font-size: 24px;
+	padding: 5px 0 5px;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+#mottocontent {
+	color: #fff;
+	text-align: center;
+    padding: 190px 40px;
+    margin-top: 20px;
+    z-index: 10;
+    position: relative;
+	line-height: 30px;	
+	font-size: 35px;    
+}
+
+#mottocontent h3 {
+	margin: 20px 0px;
+	padding: 10px 0px;
+	line-height: 45px;	
+	font-size: 35px;
+}
+
+#mottocontent .fa {
+	padding: 10px 5px;
+	font-size: 40px;
+}
+
+.squareboxes {
+	background-color: #fff;
+	float: left;
+	width: 100%;
+    height: auto;
+    padding: 85px 0px;
+    border-bottom: 10px solid #d8d8d8;
+}
+
+.squareboxes div div {
+	text-align: center;
+	background-color: #cecece;
+	float: left;
+	height: auto;
+	color: #a0522d;
+	border-radius: 0px;
+}
+
+.squareboxes div div div {
+	width: 100%;
+	height: 0px;
+}
+
+.squareboxes img {
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.box1,
+.box2,
+.box3 {
+    border-bottom: 10px solid #efefef;	
+}
+
+.box1 {
+	width: 28%;
+	margin-left: 10px;
+}
+
+.squareboxes div div h3 {
+	color: #fff;
+	font-weight: lighter;
+	padding: 15px 0px;
+	margin: 0px 0px;
+	font-size: 24px;
+	background-color: #333;
+	top: 0px;
+	position: relative;
+	z-index: 0;
+}
+
+.squareboxes div div p {
+	color: #000;
+	padding: 5px 20px 20px;
+}
+
+
+.box2 {
+	width: 28%;
+	margin-left: 85px;
+
+}
+
+.box3 {
+	width: 28%;
+	margin-left: 85px;
+}
+
+#footer {
+	float: left;
+	background-color: #1A0101; 
+	width: 100%;
+	height: 300px;
+	padding: 30px 0px 40px;
+}
+
+#footer div div h4 {
+	color: #efefef;
+	font-size: 28px;
+	font-weight: lighter;
+	padding: 25px 0px;
+	margin: 0px;
+	line-height: 38px;
+}
+
+#footer div div p {
+	color: #fff;
+}
+
+.weekdays {
+	min-width: 79px;
+	float: left;
+}
+
+#footbox1 {
+	width: 250px;
+	margin-right: 75px; 
+	float: left;
+}
+
+#footbox2 {
+	width: 250px;
+	float: left;
+}
+
+#footbox3 {
+	float: left;
+	width: 250px;
+}
+
+#footbox4 {
+	width: 250px;
+	float: left;
+	margin-left: 75px;
+}
+
+#footbox4 i {
+	color: #fff;
+	font-size: 35px;
+	padding-right: 15px;
+}
+
+.address {
+	padding-left: 14px;
+}
+
+.melbourne {
+	padding-left: 27px;
+}
+
+.email {
+	padding-left: 9px;
+}
+
+.call {
+	padding-left: 12px;
+}
+
+.call a {
+	color: #fff;
+}
+
+#footerend {
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: #000;
+	text-align: center;
+}
+
+#footerend p {
+	color: #efefef;
+	padding: 12px 0px;
+	margin: 5px 0px;
+	font-size: 13px;
+}
+
+/* Here begins the style of the Menu.html */
+
+#menutop {
+	float: left;
+	width: 100%;
+	height: 20px;
+	background-color: #1C1C1C;
+}
+
+#foodmenu {
+    background-color: #cecece;
+    float: left;
+    width: 100%;
+    height: 850px;
+}
+
+#menutitle h2 {
+    margin: 0px;
+    padding: 20px;
+    color: #fff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#menubg {
+	background-color: #230600;
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-bottom: 45px;
+}
+
+.tableseperator {
+	float: left;
+	width: 100%;
+}
+
+#menutable {
+	float: left;
+	width: 100%;
+	height: 150 0px;
+	background-color: #000;
+}
+
+#menutable h2 {
+	margin: 35px 0px;
+	padding: 10px 0px;
+	font-weight: lighter;
+	font-size: 35px;
+	text-align: center;
+	color: #c5c5c5;
+	line-height: 48px;
+}
+
+.tablebox {
+	float: left;
+	border-radius: 0px;
+	width: 373px;
+	min-height: 477px;
+	background-color: #efefef;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.tablebox {
+	margin: 20px 20px;
+}
+
+.tablebox.middle {
+	margin: 20px 0px;
+}
+
+.tablebox .img {
+	min-height: 120px;
+	background-color: #efefef;
+	padding: 20px 0px;
+}
+
+.tablebox img {
+	text-align: center;
+	background-color: #efefef;
+	height: 115px;
+}
+
+.tablebox .menutitle {
+	width: 203px;
+	background-color: #ccc;
+	float: left;
+	min-height: 30px;
+	text-align: left;
+	padding: 18px 15px 12px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.tablebox .menuprice {
+	width: 110px;
+	background-color: #ccc;
+	float: left;
+	min-height: 30px;
+	text-align: right;
+	padding: 18px 15px 12px;
+}
+
+.tablebox .menutitle.light,
+.tablebox .menuprice.light {
+	background-color: #efefef !important;
+}
+
+
+#menutable h3 {
+	color: #dadada;
+	text-align: center;
+	font-size: 22px;
+	margin: 0px;
+	background-color: #201212;
+	padding: 15px;
+	font-weight: lighter;
+	line-height: 32px;
+}
+
+#menutable .foodlist1 {
+	margin: 0px;
+	float: left;
+	list-style-type: none;
+	line-height: 40px;
+}
+
+.foodlist1 li span {
+	margin: 0px 0px 0px 120px;
+	float: right;
+}
+
+#menutable .foodlist2 {
+	margin: 0px;
+	float: left;
+	list-style-type: none;
+	line-height: 40px;
+}
+
+.foodlist2 li span {
+   margin: 0px 0px 0px 65px;
+   float: right;
+}
+
+#pagesend {
+	float: left;
+	background-color: #A0522D;
+	width: 100%;
+	height: 100px;	
+}
+
+#pagesend p {
+	float: left;
+	margin: 0px;
+	line-height: 100px;
+	color: #fff;
+}
+
+#pagesend img {
+	padding: 0px 10px;
+	max-width: 30px;
+	width: 30px;
+	max-height: 30px;
+	height: 30px;
+}
+
+#pagesend .links {
+	float: right;
+}
+
+#pagesend .links a{
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+/* about.html style*/
+
+#aboutcontent {
+	background-color: #000;
+	float: left;
+	width: 100%;
+	min-height: 400px;
+}
+
+#aboutone {
+	margin: 88px 0px;
+	float: left;
+	width: 600px;
+}
+
+#aboutone h2,
+#aboutone h3,
+#aboutone p {
+	color: #efefef;
+	padding: 5px 25px;
+	margin: 0px 0px;
+}
+
+#aboutone h2 {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+#aboutone h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+	line-height: 25px;
+}
+
+#aboutone img {
+	max-width: 180px;
+	margin: 20px;
+}
+
+#aboutoneimg {
+	float: left;
+	width: 600px;
+}
+
+#aboutoneimg img {
+	width: 100%;
+	margin: 80px 0px;
+}
+
+#aboutmorecontent {
+	background-color: #efefef;
+	float: left;
+	width: 100%;
+	min-height: 400px;
+	text-align: center;
+	padding: 60px 0px 50px;
+}
+
+#abouttwo {
+	margin: 20px 40px 20px 0px;
+	float: left;
+	width: 600px;
+	text-align: left;
+}
+
+#abouttwo h2,
+#abouttwo h3,
+#abouttwo p {
+	color: #333;
+	padding: 5px 25px;
+	margin: 0px 0px;
+}
+
+#abouttwo h2 {
+	font-size: 30px;
+}
+
+#abouttwo h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+#contactbutton {
+	float: left;
+	width: auto;
+	margin: 45px 25px;
+}
+
+#contactbutton a {
+	background-color: #B88956;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+#abouttwoimg {
+	margin: 35px 0px;
+	float: left;	
+	background-color: #cecece;
+	padding: 20px;
+	width: 520px;
+}
+
+#abouttwoimg img {
+	float: left;
+	width: 260px;
+}
+
+/* here comes the style of team.html */
+
+#teamcontent {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	min-height: 500px;
+	padding: 100px 0px;
+}
+
+#theteam {
+	float: left;
+	width: 750px;
+	min-height: 300px;
+	border: 1px solid #efefef;
+}
+
+.teammember {
+	float: left;
+	width: 100%;
+	border: 1px solid #efefef;
+	min-height: 300px;
+}
+
+.teamtrans {
+	background-color: #000;
+	opacity: 0.7;
+	position: absolute;
+	min-height: 303px;
+	width: 250px;
+	z-index: 2;
+	transition: 0.2s linear;
+}
+
+.teamtrans:hover {
+	opacity: 0;
+}
+
+.teammember img {
+	max-width: 250px;
+	height: auto;
+	float: left;
+}
+
+.teammember h2 {
+	padding:  20px 0px 5px;
+	margin: 10px 0px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.teammember h3 {
+	padding: 0px 0px;
+	margin: 0px 0px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.teammember p,
+.teammember h2,
+.teammember h3 {
+	float: left;
+	width: 450px;
+	color: #efefef;
+	margin-left: 30px;
+	font-weight: normal;
+}
+
+.teamsocial {
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.teamsocial i {
+	float: left;
+	font-size: 20px;
+	padding-right: 15px;
+	color: #efefef;}
+
+#teamslide {
+	float: right;
+	width: 350px;
+	min-height: 910px;
+	border: 1px solid #efefef;
+}
+
+#teamslide img {
+	width: 100%;
+	float: left;
+}
+
+.teamslidetext {
+	min-height: 73px;
+	float: left;
+	width: 100%;
+}
+
+.teamslidetext p {
+	text-align: center;
+	color: #efefef;
+}
+
+/*here comes the style of news.html*/
+
+#newscontent {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	min-height: 500px;
+	padding: 60px 0px;
+}
+
+.newsentry {
+	float: left;
+	width: 100%;
+	margin: 40px 0px;
+}
+
+.newsimage {
+	border: 2px solid #efefef;
+	height: 250px;
+	width: 350px;
+	float: left;
+}
+
+.newsimage img {
+	max-width: 350px;
+	height: auto;
+}
+
+.newstext {
+	border: 2px solid #efefef;
+	width: 770px;
+	float: left;
+	padding: 10px 35px;
+}
+
+.newstext h2 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 32px;
+	padding: 10px 0px;
+	margin: 5px 0px;
+	line-height: 32px;
+}
+
+.newstext h3 {
+	color: #fff;
+	font-weight: normal;
+	padding: 0px 0px;
+	margin: 5px 0px;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.newstext .fa {
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+.newstext .fa-user {
+	padding-left: 10px;
+}
+
+.newstext p {
+	color: #fff;
+	margin-top: 30px;
+}
+
+/*here comes the style of Contact.html*/
+
+#map {
+	float: left;
+    width: 100%;
+    height: 300px;
+}
+
+#contactarea {
+	background-color: #efefef;
+	padding: 40px 0px;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+#contactform {
+	float: left;
+	width: 800px;
+	height: auto;
+}
+
+#contactform hr {
+	padding: 0;
+	margin: 0;
+	color: #efefef;
+}
+
+#contactform label,
+#contactform input {
+	width: 96.5%;
+	float: left;
+	margin: 15px 0px 0px;
+}
+
+#contactform input {
+	font-family: 'open sans';
+	min-height: 25px;
+	padding: 10px;
+	border: 1px solid #cecece;
+	font-size: 12px;
+}
+
+#contactform textarea {
+	font-family: 'open sans';
+	font-size: 12px;
+	margin: 15px 0px 0px;
+	padding: 10px;
+	resize: none;
+	width: 96.5%;
+	float: left;
+	min-height: 200px;
+	border: 1px solid #cecece;
+}
+
+#contactform .sendbtn {
+	border: 1px solid #fff;
+	background-color: #B88956;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+	margin-top: 20px;
+	width: auto;
+}
+
+#contactform .sendbtn:hover {
+	cursor: pointer;
+}
+
+#contactform #contact_results .error {
+	padding: 0px 0px 15px;
+	color: red;	
+}
+
+#contactform #contact_results .success {
+	padding: 0px 0px 15px;
+	color: green;	
+}
+
+#contactinfo {
+	border: 10px solid #e6e6e6;
+	text-align: center;
+	margin-left: 80px;
+	padding: 5px 20px 20px;
+	float: left;
+	width: 260px;
+	height: auto;
+	background-color: #fefefe;
+	color: #000;
+}
+
+#contactinfo i {
+	font-size: 30px;
+	padding: 15px 0px;
+}
+
+@media screen and (min-width: 1250px) {
+	
+	#myNav {
+		width: 100% !important;
+	}
+
+}
+/********** Responsive Design START **********/
+/********** Tablet Design START **********/
+
+@media screen and (max-width: 1250px) {
+
+	.wrapper,
+	.wellwrapper {
+		max-width: 650px;
+	}
+	
+	#logo {
+		width: 100px;
+	}
+
+	#opennav,
+	#closenav {
+		display: block;
+	}
+
+	#opennav {
+		float: right;
+		color: #efefef;
+		margin: 25px 0px;
+	}
+
+	#opennav i {
+		font-size: 45px;
+	}
+
+	#myNav {
+		width: 0%;
+	}
+
+	.overlay {
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: rgb(0,0,0);
+	    background-color: rgba(0,0,0, 0.98);
+	    overflow-x: hidden;
+	    transition: 0.2s;
+	}
+
+	.overlay-content {
+	    position: relative;
+	    top: 100px;
+	    width: 100%;
+	    text-align: center;
+	    margin-top: 10px;
+	}
+
+	.overlay a {
+	    padding: 8px;
+	    text-decoration: none;
+	    font-size: 36px;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	}
+
+	.overlay a:hover, .overlay a:focus {
+	    color: #f1f1f1;
+	}
+
+	.overlay .closebtn {
+	    position: absolute;
+	    top: 0px;
+		right: 50px;
+		font-size: 60px
+	}
+
+	#header ul,
+	#header ul li {
+		width: 100%;
+	}
+
+	#header li a {
+		padding: 40px 12px;
+	}
+
+	#banner {
+		background-attachment: inherit;
+	}
+
+	.first {
+		font-size: 75px;
+		margin: 10px 0px 5px;
+	}
+
+	.second {
+		line-height: 45px;
+		font-size: 40px;
+		margin: 0px 0px 0px;
+	}
+
+	#morelink {
+		margin-top: 40px;
+	}
+
+	#frontbox1, 
+	#frontbox2, 
+	#frontbox3 {
+		margin: 0px;
+		width: 215px;
+		min-height: 480px;
+	}
+
+	#frontbox1 img, 
+	#frontbox2 img {
+		max-width: 100%;
+	}
+
+	#frontbox3 #contact_body input {
+		width: 142px;
+	}
+
+	#frontbox3 #contact_body .submit {
+		width: 115px  !important;
+		margin-top: 45px;
+		padding: 21.7px;
+	}
+
+	.readmore {
+		position: relative;
+		top: 13px;
+	}
+
+	#foodicons {
+		height: 364px;
+		padding: 0px 0px;
+	}
+
+	#foodicons h3 {
+		margin-top: 35px;
+		padding: 10px 0px;
+	}
+
+	.downline,
+	.upline {
+		margin-top: 140px;
+		width: 48px;
+	}
+
+	#lettuceicon {
+		background-size: 80px auto;
+		width: 80px;
+	}
+
+	#glassicon {
+		background-size: 80px auto;
+		height: 90px;
+		margin-top: 150px;
+		width: 55px;
+	}
+
+	#fruiticon {
+		background-size: 80px auto;
+		width: 80px;		
+	}
+
+	#warmplateicon {
+		background-size: 70px auto;
+		margin-top: 120px;
+		width: 75px;
+	}
+	 
+	#desserticon {
+		background-size: 90px auto;
+		margin-top: 60px;
+		width: 80px;	
+	}
+
+	.squareboxes {
+		padding: 75px 0px;
+		height: auto;
+	}
+
+	.squareboxes img {
+		width: 35px;
+	}
+
+	.box1, 
+	.box2, 
+	.box3 {
+		width: 200px;
+	}
+
+	.box2,
+	.box3 {
+		margin-left: 20px;
+	}
+
+	#motto {
+		height: auto;
+	}
+
+	.trans-1 {
+		height: 350px;
+	}
+
+	#mottocontent {
+		max-width: 650px;
+		margin: 0 auto;
+		padding: 80px 40px 60px;
+	}
+
+	#footer {
+		height: auto;
+	}
+
+	#footbox1 {
+		width: 280px;
+		margin-right: 118px;
+	}
+
+	#footbox3 {
+		width: 280px;
+		margin-top: 20px;
+	}
+
+	#footbox4 {
+		margin-left: 120px;
+		margin-top: 20px;
+	}
+
+	.tableseperator {
+		float: none;
+	}
+
+	.tablebox {
+		width: 285px;
+	}
+
+	.tablebox.middle {
+		margin: 20px 20px;
+	}
+
+	.tablebox .menutitle {
+		width: 160px;
+	}
+
+	.tablebox .menuprice {
+		width: 65px;
+	}
+
+	#aboutone {
+		width: 100%;
+		margin: 50px 0px;
+	}
+
+	#aboutoneimg {
+		width: 100%;
+	}
+
+	#aboutoneimg img {
+		margin: 0px;
+	}
+
+	#abouttwo {
+		margin: 0px;
+		width: 100%;
+	}
+
+	#abouttwo h2, #abouttwo h3, #abouttwo p {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#contactbutton {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#abouttwoimg {
+		width: 609px;
+	}
+
+	#abouttwoimg img {
+		width: 304px;
+	}
+
+	#aboutmorecontent {
+		padding: 50px 0px 25px;
+	}
+
+	#teamcontent {
+		padding: 60px 0px;
+	}
+
+	#theteam {
+		width: 100%;
+	}
+
+	.teammember img {
+		max-width: 250px;
+		float: left;
+	}
+
+	.teamtrans {
+		width: 250px;
+		float: left;
+	}
+
+	.teamcontent {
+		float: left;
+		width: 300px;
+		margin: 0px 25px;
+	}
+
+	.teammember p, 
+	.teammember h2, 
+	.teammember h3 {
+		width: 100%;
+		margin: 5px 0px;
+	}
+
+	.teamsocial {
+		margin-left: 0px;
+		width: auto;
+	}
+
+	#teamslide {
+		float: left;
+		width: 100%;
+	}
+
+	.teamslidetext {
+		min-height: 60px;
+	}
+
+	#newscontent {
+		padding: 20px 0px;
+	}
+
+	.newstext {
+		width: 575px;
+	}
+
+	#contactarea {
+		padding: 40px 0px 15px;
+	}
+
+	#contactform {
+		width: 100%;
+	}
+
+	#contactinfo {
+		margin: 50px 0px;
+		width: 590px;
+	}
+	
+}
+
+/********** Mobile Design START **********/
+
+@media screen and (max-width: 700px) {
+
+	.wrapper,
+	.wellwrapper {
+		max-width: 300px;
+		width: 300px;
+	}
+
+	.overlay .closebtn {
+	    position: absolute;
+	    top: 0px;
+		right: 20px;
+	}
+
+	.first {
+		width: 300px;
+		max-width: 300px;
+		font-size: 50px;
+		line-height: 50px;
+		margin: 0px auto 0px;
+		text-align: center;
+	}
+
+	.second {
+		width: 300px;
+		max-width: 300px;
+		font-size: 30px;
+		line-height: 30px;
+		margin: 10px auto;
+	}
+
+	#morelink {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	#frontbox1, 
+	#frontbox2,
+	#frontbox3 {
+		width: 100%;
+	}
+
+	#frontbox1 img, 
+	#frontbox2 img {
+		width: 250px;
+		max-width: 250px;
+	}
+
+	#frontbox3 #contact_body input {
+		width: 228px;
+	}
+
+	#frontbox3 #contact_body .submit {
+		margin-top: 10px;
+	}
+
+	#foodicons {
+		height: 201px;
+		padding: 45px 0px;
+	}
+
+	#foodiconstitle {
+		width: 100%;
+		float: left;
+		text-align: center;
+		background-color: #efefef;
+	}
+
+	#foodicons h3 {
+		margin: 0px auto;
+		font-size: 22px;
+		float: none;
+		max-width: 300px;
+		background-color: inherit;
+	}
+
+	.downline, 
+	.upline {
+		width: 21px;
+		margin-top: 32px;
+	}
+
+	#lettuceicon {
+		margin-left: 0px;
+		background-size: 50px auto;
+		width: 50px;
+		height: 55px;
+		margin-top: 20px;
+	}
+
+	#glassicon {
+		background-size: 50px auto;
+		margin-top: 150px;
+		width: 30px;
+		height: 55px;
+		margin-top: 50px;
+	}
+
+	#fruiticon {
+		background-size: 45px auto;
+		width: 50px;
+		margin-left: 0px;
+		height: 55px;
+		margin-top: 20px;
+	}
+
+	#warmplateicon {
+		background-size: 45px auto;
+		width: 48px;
+		height: 55px;
+		margin: 55px 0px;
+	}
+
+	#desserticon {
+		background-size: 45px auto;
+		width: 35px;
+		height: 55px;
+		margin-top: 20px;
+	}
+
+	.box1, 
+	.box2, 
+	.box3 {
+		width: 289px;
+	}
+
+	.box1 {
+		margin-bottom: 20px;
+	}
+
+	.box2, .box3 {
+    	margin: 20px 10px;
+	}
+
+	.squareboxes {
+		padding: 60px 0px;
+	}
+
+	#mottocontent {
+		width: 300px;
+		padding: 50px 0px 35px;
+	}
+
+	#mottocontent h3 {
+	    margin: 10px 0px;
+	    padding: 10px 0px;
+	    line-height: 34px;
+	    font-size: 24px;
+	}
+
+	.trans-1 {
+		height: 290px;
+	}
+
+	#footer {
+		padding: 30px 0px 60px;
+	}
+
+	#footbox1 {
+		width: 300px;
+		margin-right: 0px;
+	}
+
+	#footbox2,
+	#footbox3 {
+		width: 300px;
+	}
+
+	#footbox4 {
+		margin-left: 0px;
+		width: 300px;
+	}
+
+	#menubg {
+		background-color: inherit;
+	}
+
+	.tablebox {
+		width: 300px;
+		margin: 0px 0px 20px;
+	}
+
+	.tablebox.middle {
+	    margin: 0px 0px 20px;
+	}
+
+	.tablebox .menutitle {
+		width: 175px;
+	}
+
+	#aboutone h2, 
+	#aboutone h3, 
+	#aboutone p {
+		padding: 5px 0px;
+	}
+
+	#abouttwoimg {
+    	width: 260px;
+	}
+
+	#abouttwoimg img {
+	    width: 260px;
+	}
+
+	.teamtrans {
+		min-height: 365px;
+	}
+
+	.teamtrans,
+	.teammember img {
+	    width: 300px;
+	    max-width: 300px;
+	}	
+
+	.teamcontent {
+	    float: left;
+	    width: 250px;
+	    margin: 0px;
+	    padding: 0px 25px;
+	}
+
+	.teamsocial {
+		margin-bottom: 25px;
+	}
+
+	#teamslide {
+		min-height: auto;
+	}
+
+	#newscontent {
+	    padding: 20px 0px 45px;
+	}
+
+	.newsentry {
+		margin: 40px 0px 10px;
+	}
+
+	.newsimage {
+		width: 300px;
+		height: 215px;
+	}
+
+	.newsimage img {
+	    max-width: 300px;
+	}
+
+	.newstext {
+		width: 250px;
+		padding: 10px 25px;
+	}
+
+	.newstext h2 {
+		line-height: 38px;
+	}
+
+	#contactform label, 
+	#contactform input,
+	#contactform textarea {
+    	width: 278px;
+	}
+
+	#contactinfo {
+		width: 240px;
+	}
+
+	#contactinfo p a {
+		color: #000;
+	}
+
+	#contactform .sendbtn,
+	#frontbox3 #contact_body .submit {
+		border-radius: 0px !important;
+		border: none;
+		box-shadow: none;
+  		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
